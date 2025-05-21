@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О проекте | Виртуальный стилист</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .about-section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .highlight-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3a7bd5;
+            padding: 20px;
+            margin: 30px 0;
+        }
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .feature-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .video-links {
+            margin-top: 30px;
+        }
+        .video-links a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #3a7bd5;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 40px;
+        }
+        h3 {
+            color: #3a7bd5;
+        }
+        ul.goals-list, ul.results-list {
+            padding-left: 1em;
+        }
+        ul.goals-list li, ul.results-list li {
+            list-style-position: inside;
+            padding-left: 0;
+            margin-bottom: 0.5em;
+        }
+        .feature-card ul {
+            padding-left: 1em;
+        }
+        .feature-card li {
+            list-style-position: inside;
+            padding-left: 0;
+            margin-bottom: 0.3em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Логотип" width="100">
+        <h1>Виртуальный стилист</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="about.html">О проекте</a>
+            <a href="team.html">Участники</a>
+            <a href="journal.html">Журнал</a>
+            <a href="resources.html">Ресурсы</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <h2>О проекте</h2>
+            
+            <div class="highlight-box">
+                <h3>Описание проекта</h3>
+                <p>Виртуальный стилист — учебный проект, разработанный студентами Московского Политеха в рамках проектной деятельности при поддержке компании Texel. Проект исследует возможности применения технологий компьютерного зрения и машинного обучения в сфере моды и стиля.</p>
+                
+                <div class="video-links">
+                    <p>Материалы о проекте:</p>
+                    <a href="https://t.me/texelgraphics/6" target="_blank">Видео 1</a>
+                    <a href="https://t.me/texelgraphics/23" target="_blank">Видео 2</a>
+                </div>
+            </div>
+
+            <h2>Исследуемые проблемы</h2>
+            <div class="feature-list">
+                <div class="feature-card">
+                    <h3>Доступность технологий</h3>
+                    <p>Изучение возможностей адаптации профессиональных решений для массового пользователя.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Анализ существующих решений</h3>
+                    <p>Исследование функциональных возможностей и ограничений аналогичных сервисов.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Пользовательский опыт</h3>
+                    <p>Разработка интерфейсов для удобного взаимодействия с сервисом подбора одежды.</p>
+                </div>
+            </div>
+
+            <h2>Цели проекта</h2>
+            <ul class="goals-list">
+                <li>Разработка прототипа сервиса виртуального стилиста</li>
+                <li>Получение практического опыта работы с технологиями искусственного интеллекта</li>
+            </ul>
+
+            <h2>Задачи проекта</h2>
+            <div class="feature-list">
+                <div class="feature-card">
+                    <h3>Концепция проекта</h3>
+                    <ul>
+                        <li>Определение функциональных возможностей</li>
+                        <li>Проектирование пользовательских сценариев</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <h3>Техническая реализация</h3>
+                    <ul>
+                        <li>Разработка прототипа веб-приложения</li>
+                        <li>Исследование алгоритмов рекомендаций</li>
+                        <li>Создание базовых функций подбора одежды</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <h3>Тестирование</h3>
+                    <ul>
+                        <li>Проведение тестов с пользователями</li>
+                        <li>Сбор и анализ обратной связи</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <h3>Документирование</h3>
+                    <ul>
+                        <li>Фиксация результатов исследования</li>
+                        <li>Подготовка отчетных материалов</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <h3>Образовательные цели</h3>
+                    <ul>
+                        <li>Приобретение практических навыков разработки</li>
+                        <li>Работа в команде над реальным проектом</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Ожидаемые результаты</h2>
+            <ul class="results-list">
+                <li>Рабочий прототип веб-приложения</li>
+                <li>Отчет о проведенном исследовании</li>
+                <li>Документация по проекту</li>
+                <li>Приобретение участниками практического опыта</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Виртуальный стилист</a></p>
+    </footer>
+</body>
+</html>

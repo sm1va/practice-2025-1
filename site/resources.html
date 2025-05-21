@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресурсы | Виртуальный стилист</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .resources-section {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .resource-card {
+            background: white;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            border: 1px solid #e0e0e0;
+        }
+        .resource-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .partner-card {
+            background: linear-gradient(135deg, #0072ff 0%, #194a9a 100%);
+            color: white;
+            border: none;
+        }
+        .resource-card h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .partner-card h3 {
+            color: white;
+        }
+        .resource-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        .partner-card .resource-link {
+            color: white;
+            text-decoration: underline;
+        }
+        .resource-link:hover {
+            color: #1a6fb3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Логотип" width="100">
+        <h1>Виртуальный стилист</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="about.html">О проекте</a>
+            <a href="team.html">Участники</a>
+            <a href="journal.html">Журнал</a>
+            <a href="resources.html">Ресурсы</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="resources-section">
+            <h2>Полезные ресурсы</h2>
+            
+            <div class="resources-grid">
+                <!-- Карточка партнера -->
+                <div class="resource-card partner-card">
+                    <h3>Texel - Официальный партнёр</h3>
+                    <p>Компания, предоставившая технологическую поддержку и ИИ-модель для нашего проекта.</p>
+                    <a href="https://texel.ru" target="_blank" class="resource-link">Посетить сайт →</a>
+                </div>
+
+                <!-- Технические ресурсы -->
+                <div class="resource-card">
+                    <h3>OpenCV</h3>
+                    <p>Библиотека компьютерного зрения для обработки изображений и анализа стиля.</p>
+                    <a href="https://opencv.org" target="_blank" class="resource-link">Перейти к ресурсу →</a>
+                </div>
+
+                <div class="resource-card">
+                    <h3>TensorFlow</h3>
+                    <p>Фреймворк машинного обучения для создания моделей рекомендаций стиля.</p>
+                    <a href="https://www.tensorflow.org" target="_blank" class="resource-link">Перейти к ресурсу →</a>
+                </div>
+
+                <!-- Образовательные материалы -->
+                <div class="resource-card">
+                    <h3>Fashion MNIST Dataset</h3>
+                    <p>Датасет с изображениями модных товаров для обучения нашей модели.</p>
+                    <a href="https://github.com/zalandoresearch/fashion-mnist" target="_blank" class="resource-link">Перейти к ресурсу →</a>
+                </div>
+
+                <div class="resource-card">
+                    <h3>ColorMind</h3>
+                    <p>Инструмент для подбора цветовых сочетаний в одежде.</p>
+                    <a href="http://colormind.io" target="_blank" class="resource-link">Перейти к ресурсу →</a>
+                </div>
+
+                <div class="resource-card">
+                    <h3>Adobe Color</h3>
+                    <p>Палитра цветов для создания гармоничных образов.</p>
+                    <a href="https://color.adobe.com" target="_blank" class="resource-link">Перейти к ресурсу →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Виртуальный стилист</a></p>
+    </footer>
+</body>
+</html>

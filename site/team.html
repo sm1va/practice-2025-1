@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Участники | Виртуальный стилист</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Основные стили таблицы */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0 60px; /* Добавлен отступ снизу 60px */
+            font-size: 0.9em;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #f8f8f8;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .role {
+            font-weight: 500;
+            color: #2c3e50;
+        }
+
+        /* Дополнительные отступы */
+        main {
+            padding-bottom: 40px; /* Запас для футера */
+            min-height: calc(100vh - 200px); /* Минимальная высота контента */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Логотип" width="100">
+        <h1>Виртуальный стилист</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="about.html">О проекте</a>
+            <a href="team.html">Участники</a>
+            <a href="journal.html">Журнал</a>
+            <a href="resources.html">Ресурсы</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Наша команда</h2>
+            <p>Студенты, которые работают над созданием приложения</p>
+            
+            <table>
+                 <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>Участник, группа</th>
+                        <th>Роль</th>
+                        <th>Вклад в проект</th>
+                        <th>Часы работы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Борисова Арина Леонидовна<br><small>241-622</small></td>
+                        <td><span class="role">Лидер/координатор</span></td>
+                        <td>Координация работы команды, управление проектом, планирование задач, распределение ролей и контроль за выполнением сроков</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Смирнов Иван Алексеевич<br><small>241-333</small></td>
+                        <td><span class="role">Аналитик</span></td>
+                        <td>Анализ требований, исследование рынка, составление отчетов о результатах анализа, взаимодействие с командой</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Павлова Элина Романовна<br><small>241-622</small></td>
+                        <td><span class="role">Исследователь</span></td>
+                        <td>Проведение исследований, сбор данных, анализ информации для формирования рекомендаций, подготовка материалов</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Агеева Дарья Сергеевна<br><small>241-333</small></td>
+                        <td><span class="role">Коммуникатор</span></td>
+                        <td>Взаимодействие с участниками проекта и руководителями, подготовка отчетности, создание презентаций</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Августов Ярослав Юрьевич<br><small>241-661</small></td>
+                        <td><span class="role">Разработчик</span></td>
+                        <td>Разработка веб-сайта, программирование функционала, тестирование и отладка приложения</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Кадырова Азалия Айдаровна<br><small>241-661</small></td>
+                        <td><span class="role">Дизайнер</span></td>
+                        <td>Разработка концепции дизайна, создание визуальных материалов, оформление сайта</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Мальшина Анастасия Геннадьевна<br><small>241-632</small></td>
+                        <td><span class="role">Лидер/координатор</span></td>
+                        <td>Управление проектом, координация работы команды, контроль за выполнением задач</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Кизилова Ирина Романовна<br><small>241-333</small></td>
+                        <td><span class="role">Разработчик</span></td>
+                        <td>Программирование функционала сайта, работа с API, тестирование</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Степанова Алина Александровна<br><small>241-632</small></td>
+                        <td><span class="role">Дизайнер</span></td>
+                        <td>Создание графических элементов, разработка UI/UX, анимации</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Грицук Арина Юрьевна<br><small>241-611</small></td>
+                        <td><span class="role">Коммуникатор</span></td>
+                        <td>Поддержка связи между участниками, подготовка отчетности</td>
+                        <td>16</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Виртуальный стилист</p>
+    </footer>
+</body>
+</html>
